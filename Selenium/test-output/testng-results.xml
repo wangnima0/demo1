@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="25" started-at="2018-12-29T03:30:25Z" finished-at="2018-12-29T03:30:25Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="25" started-at="2018-12-29T03:30:25Z" finished-at="2018-12-29T03:30:25Z">
+      <class name="testng.NewTest">
+        <test-method status="PASS" signature="f(java.lang.String, int)[pri:0, instance:testng.NewTest@23cf68e9]" name="f" duration-ms="8" started-at="2018-12-29T11:30:25Z" data-provider="user" finished-at="2018-12-29T11:30:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[zhangsan]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, int)[pri:0, instance:testng.NewTest@23cf68e9]" name="f" duration-ms="1" started-at="2018-12-29T11:30:25Z" data-provider="user" finished-at="2018-12-29T11:30:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[lisi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[18]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- testng.NewTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
